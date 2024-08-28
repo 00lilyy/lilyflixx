@@ -1,0 +1,70 @@
+body {
+    color:rgb(254, 253, 253);
+    background: pink;
+    margin: 0px;
+    font-family: "Bungee Tint", sans-serif;
+    margin-bottom: 105px;
+}
+
+
+   header {
+
+   border-bottom: solid 7px rgb(255, 251, 251);
+   padding: 20px;
+   font-size: 32px;  
+   color: rgb(255, 0, 0);
+
+}
+
+.chamada {
+    background: rgba(252, 69, 167, 0.671);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    margin-right: 1%;
+}
+
+.chamada-texto{
+    margin-left: 5%;
+}
+
+h1{
+   font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 270px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+
+.categoria-video img{
+   opacity: 0.5;
+   height: 200px;
+}
+.categoria-video img:hover{
+   opacity: 1.0;
+   border: 1px  solid rgba(252, 69, 167, 0.671);
+} 
+.categoria h2{
+    color: rgb(255, 0, 0);
+}
